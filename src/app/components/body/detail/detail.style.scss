@@ -1,0 +1,29 @@
+@import "../../../../styles.scss";
+
+agm-map {
+  height: 300px;
+}
+.name {
+  height: 7rem;
+  padding: 0 1.2rem;
+  background-color: $color-primary-dark;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.6rem;
+  h2 {
+    font-size: 1.9rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+.contact {
+  padding: 1.5rem 1rem;
+  p{
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+}

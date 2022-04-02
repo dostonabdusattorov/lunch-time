@@ -1,0 +1,11 @@
+<ul>
+  <li *ngFor="let el of items">
+    <a routerLink="/detail/{{el.name.split(' ').join('')}}">
+    <img [src]="el.backgroundImageURL" [alt]="el.name" />
+    <div class="content">
+      <h2>{{ el.name }}</h2>
+      <p>{{ el.category }}</p>
+    </div>
+  </a>
+  </li>
+</ul>

@@ -11,12 +11,18 @@
     font-size: 1.8rem;
     color: #fff;
     font-weight: 600;
+    text-decoration: none;
+    padding: 0.2rem 0.5rem;
   }
   p {
     color: $color-primary;
   }
-  img {
+  .map {
     width: 3.6rem;
     height: 3.6rem;
+  }
+  .back {
+    width: 1.5rem;
+    height: 3rem;
   }
 }
