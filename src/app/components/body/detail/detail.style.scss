@@ -1,8 +1,21 @@
 @import "../../../../styles.scss";
 
-agm-map {
-  height: 300px;
+// agm-map {
+//   height: 300px;
+// }
+.detail {
+  animation: detail 0.7s;
 }
+
+@keyframes detail {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 .name {
   height: 7rem;
   padding: 0 1.2rem;

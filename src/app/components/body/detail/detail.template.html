@@ -1,12 +1,14 @@
 <!-- <agm-map [latitude]="lat" [longitude]="lng">
   <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
 </agm-map> -->
+<div class="detail">
   <div class="name">
     <h2>{{restaurant.name}}</h2>
-  <p>{{restaurant.category}}</p>
+    <p>{{restaurant.category}}</p>
   </div>
   <div class="contact">
     <p>{{restaurant.location.address}}</p>
     <p>{{restaurant.contact.formattedPhone}}</p>
     <p>@{{restaurant.contact.twitter}}</p>
   </div>
+</div>
