@@ -7,6 +7,8 @@ import restaurants from 'src/interfaces/restaurant/restaurants.interface';
 
 const API = 'https://s3.amazonaws.com/br-codingexams/restaurants.json';
 
+// What is hero service? follow proper naming conventions
+
 @Injectable({
   providedIn: 'root',
 })

@@ -3,6 +3,8 @@ import restaurant from "src/interfaces/restaurant/restaurant.interface";
 
 import { HeroService } from "src/app/hero.service";
 
+
+// unsubscribe once component it destroyed
 @Component({
   selector: 'app-menu',
   styleUrls: ['./menu.style.scss'],
