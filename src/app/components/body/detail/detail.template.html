@@ -3,12 +3,12 @@
 </agm-map> -->
 <div class="detail">
   <div class="name">
-    <h2>{{restaurant.name}}</h2>
-    <p>{{restaurant.category}}</p>
+    <h2>{{restaurant?.name}}</h2>
+    <p>{{restaurant?.category}}</p>
   </div>
   <div class="contact">
-    <p>{{restaurant.location.address}}</p>
-    <p>{{restaurant.contact.formattedPhone}}</p>
-    <p>@{{restaurant.contact.twitter}}</p>
+    <p>{{restaurant?.location?.address}}</p>
+    <p>{{restaurant?.contact?.formattedPhone}}</p>
+    <p>@{{restaurant?.contact?.twitter}}</p>
   </div>
 </div>
