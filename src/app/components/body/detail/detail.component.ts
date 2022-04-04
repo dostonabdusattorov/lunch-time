@@ -10,7 +10,8 @@ import restaurant from "src/interfaces/restaurant/restaurant.interface";
 })
 export class Detail implements OnInit {
   constructor(private router: Router, private route: ActivatedRoute, private service: HeroService) {}
-
+  // why restaurant data is hard coded?
+  // interfaces need to be spelled as Pascal Case
   restaurant: restaurant = {
     "name": "Hopdoddy Burger Bar",
     "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/hopdoddy.png",
