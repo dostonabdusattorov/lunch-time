@@ -1,6 +1,10 @@
 @import "../../../styles.scss";
 
 .header {
+  .active {
+    visibility: hidden;
+    pointer-events: none;
+  }
   height: 7rem;
   position: sticky;
   top: 0;

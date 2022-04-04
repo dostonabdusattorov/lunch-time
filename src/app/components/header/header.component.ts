@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './header.template.html',
   styleUrls: ['header.component.scss'],
 })
-export class Header {}
+export class Header {
+  active: string = "active";
+}
